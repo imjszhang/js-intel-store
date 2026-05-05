@@ -1,0 +1,36 @@
+{
+  "name": "js-intel-store",
+  "version": "0.1.0",
+  "description": "Lightweight time-series + entity hybrid file storage engine. Five storage strategies (single_json / entity_json / entity_jsonl / append_jsonl / daily_jsonl) driven by a registry of declarative DataSourceSpec.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "node examples/minimal-demo/run.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "storage",
+    "jsonl",
+    "time-series",
+    "registry",
+    "intelligence-store"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "vitest": "^2.1.0"
+  }
+}

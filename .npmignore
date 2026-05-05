@@ -1,0 +1,6 @@
+tests/
+examples/
+docs/
+.vitest-cache/
+coverage/
+.gitignore
