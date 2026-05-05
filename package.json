@@ -10,6 +10,7 @@
   "files": [
     "src",
     "README.md",
+    "RELEASE_NOTES.md",
     "LICENSE",
     "CHANGELOG.md"
   ],
